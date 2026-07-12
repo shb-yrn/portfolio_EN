@@ -328,7 +328,7 @@ const cer_infos = [
     title: "React.js: Building an Interface",
     platform: "LinkedIn",
     year: "Dec 2022",
-    desc: "آموزش ساخت رابط کاربری با React.js، شامل کامپوننت‌ بندی، مدیریت state و الگوهای رایج توسعه فرانت‌اند.",
+    desc: "A course on building user interfaces with React.js, covering component structuring, state management, and common front-end development patterns.",
     url: "https://www.linkedin.com/learning/certificates/81f6d44bdc2a1fa511f4215411fa46ed516bf2fbdd5abf78f3c8cf4f0c3fdac5",
     imgUrl: "images/certificate/React_js_Building_an_Interface.jpeg"
   },
@@ -336,7 +336,7 @@ const cer_infos = [
     title: "React.js Essential Training",
     platform: "LinkedIn",
     year: "Des 2022",
-    desc: "آشنایی با مفاهیم پایه React.js و اصول طراحی کامپوننت‌ محور برای توسعه اپلیکیشن‌های وب.",
+    desc: "An introduction to the core concepts of React.js and component-based design principles for building web applications.",
     url: "https://www.linkedin.com/learning/certificates/b00ad03571b05eac2cb85d033dbc5f348d44f53f462db1af710bf6b91c519ead",
     imgUrl: "images/certificate/React_js_Essential_Training.png"
   },
@@ -344,7 +344,7 @@ const cer_infos = [
     title: "C# and .NET Essential Training",
     platform: "LinkedIn",
     year: "Feb 2023",
-    desc: "دوره پایه و اساسی برای یادگیری زبان برنامه‌نویسی #C و فریم‌ورک .NET",
+    desc: "A foundational course for learning the C# programming language and the .NET framework.",
     url: "https://www.linkedin.com/learning/certificates/36bddc84cd2c7b151734beb3e79d5d2f472aa40392d5a705044c5840bc627034/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B6twQ0XkWTveeFSnTtWXqTg%3D%3D",
     imgUrl: "images/certificate/C_and_NET_Essential_Training.jpeg"
   },
@@ -352,7 +352,7 @@ const cer_infos = [
     title: "React: Accessibility",
     platform: "LinkedIn",
     year: "Dec 2022",
-    desc: "آموزش تکنیک‌های دسترس‌پذیری (Accessibility) در توسعه اپلیکیشن‌های React برای ساخت رابط‌های کاربری قابل استفاده برای همه",
+    desc: "Training in accessibility techniques for React application development, focused on building interfaces usable by everyone.",
     url: "https://www.linkedin.com/learning/certificates/68d87dfbc01db37f4d4a2c9b9abc56eb46981c0f4fbb2a857c52e6172543f45e?trk=share_certificate",
     imgUrl: "images/certificate/React_Accessibility.jpeg"
   },
@@ -360,7 +360,7 @@ const cer_infos = [
     title: "Building React and Django Apps",
     platform: "LinkedIn",
     year: "Jan 2023",
-    desc: "دوره‌ای برای یادگیری ساخت اپلیکیشن‌های full-stack با استفاده از React در سمت فرانت‌اند و Django در سمت بک‌اند",
+    desc: "A course on building full-stack applications using React on the front end and Django on the back end.",
     url: "https://www.linkedin.com/learning/certificates/adc8dfc31e4f213c065b8d097060019e38ba75767884edb956a09d7a91ab5d46/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B6twQ0XkWTveeFSnTtWXqTg%3D%3D",
     imgUrl: "images/certificate/Building_React_and_Django_Apps.jpeg"
   },
@@ -368,42 +368,9 @@ const cer_infos = [
     title: "React Hooks",
     platform: "LinkedIn",
     year: "Jan 2023",
-    desc: "دوره‌ای تخصصی درباره React Hooks، شامل نحوه استفاده از هوک‌های استاندارد و ساخت هوک‌های سفارشی برای مدیریت state و lifecycle در کامپوننت‌های تابعی React",
+    desc: "A specialized course on React Hooks, covering the use of standard hooks and building custom hooks for state and lifecycle management in functional React components.",
     url: "https://www.linkedin.com/learning/certificates/4ad08d2e5d3327872012858886a0088e0855305749ea672b5260af92c6518887/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B6twQ0XkWTveeFSnTtWXqTg%3D%3D",
     imgUrl: "images/certificate/React Hooks.jpeg"
-  },
-  {
-    title: "SCRUM",
-    platform: "Aryana Business School",
-    year: "زمستان 1400",
-    desc: "دوره آموزشی درباره متدولوژی Scrum و اصول مدیریت پروژه‌های چابک (Agile)",
-    url: "#",
-    imgUrl: "images/certificate/scrum.jpg"
-  },
-  {
-    title: "پایان‌نامه رضایت شغلی",
-    platform: "مجتمع فنی اطلاعات گستر",
-    year: "تابستان 1395",
-    desc: "گواهی پایان همکاری و رضایت شغلی صادر شده برای آقای میثاق یاریان که از تاریخ ۹۴/۰۴/۰۱ تا ۹۵/۰۴/۳۱ به عنوان مدیر داخلی و مدرس برنامه‌نویسی با این آموزشگاه همکاری داشته و در طول این مدت از نحوه کار و اخلاق ایشان رضایت کامل اعلام شده است",
-    url: "#",
-    imgUrl: "images/certificate/Gostar.JPG",
-    isContain: true
-  },
-  {
-    title: "ساخت پروژه کامل با Angular 6 و Asp.Net Core",
-    platform: "Toplearn",
-    year: "دی 1400",
-    desc: "دوره آموزشی ساخت پروژه کامل با استفاده از Angular 6 در سمت فرانت‌اند و Asp.Net Core در سمت بک‌اند که با موفقیت به پایان رسیده است",
-    url: "https://toplearn.com/Certificate/8673__612aa241-bcc5-9f9b-dc00-39ed32a4bc26",
-    imgUrl: "images/certificate/Asp.Net_Core_Angular6.jpeg",
-  },
-  {
-    title: "پروژه محور Asp.Net Core",
-    platform: "Toplearn",
-    year: "دی 1401",
-    desc: "دوره آموزشی پروژه‌محور Asp.Net Core که به صورت عملی و از طریق ساخت یک پروژه واقعی برگزار شده و با موفقیت به پایان رسیده است",
-    url: "https://toplearn.com/Certificate/16196__612aa241-bcc5-9f9b-dc00-39ed32a4bc26",
-    imgUrl: "images/certificate/Asp.Net_Core.jpeg",
   }
 ];
 
@@ -423,7 +390,7 @@ function openModal(index) {
     }
     modalText.appendChild(cerImg);
   }else{
-    modalText.innerHTML = "عکس مدرک وجود ندارد";
+    modalText.innerHTML = "No certificate image available";
   }
   overlay.classList.add('active');
   document.body.style.overflow = 'hidden';
@@ -607,7 +574,7 @@ copyBtn.forEach(btn => {
     const markCopied = () => {
       let currentTitle = btn.title;
       btn.classList.add('copied');
-      btn.setAttribute('title', 'کپی شد!');
+      btn.setAttribute('title', 'Copied!');
       setTimeout(() => {
         btn.classList.remove('copied');
         btn.setAttribute('title', currentTitle);

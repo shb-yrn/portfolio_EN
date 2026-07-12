@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  direction: rtl;
 }
 
 html {
@@ -12,7 +11,7 @@ html {
 body {
   background-color: var(--color-04060C);
   line-height: 1.75;
-  font-family: vazirmatn;
+  font-family: poppins;
   overflow: hidden;
 }
 
@@ -96,41 +95,47 @@ main{
 }
 
 @font-face {
-  font-family: vazirmatn;
+  font-family: poppins;
   font-style: normal;
   font-weight: 900;
-  src: url('../fonts/vazirmatn/Vazirmatn-Bold.woff2') format('woff2');
+  src: url("../fonts/poppins/poppins-bold-webfont.woff") format(woff);
 }
+
 @font-face {
-  font-family: vazirmatn;
+  font-family: poppins;
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/vazirmatn/Vazirmatn-Bold.woff2') format('woff2');
+  src: url("../fonts/poppins/poppins-bold-webfont.woff") format("woff");
 }
+
 @font-face {
-  font-family: vazirmatn;
+  font-family: poppins;
   font-style: normal;
   font-weight: 500;
-  src: url('../fonts/vazirmatn/Vazirmatn-Medium.woff2') format('woff2');
+  src: url("../fonts/poppins/poppins-medium-webfont.woff") format("woff");
 }
+
 @font-face {
-  font-family: vazirmatn;
+  font-family: poppins;
   font-style: normal;
   font-weight: 600;
-  src: url('../fonts/vazirmatn/Vazirmatn-SemiBold.woff2') format('woff2');
+  src: url("../fonts/poppins/poppins-semibold-webfont.woff") format("woff");
 }
+
 @font-face {
-  font-family: vazirmatn;
+  font-family: poppins;
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/vazirmatn/Vazirmatn-Regular.woff2') format('woff2');
+  src: url("../fonts/poppins/poppins-regular-webfont.woff") format("woff");
 }
 @font-face {
-  font-family: vazirmatn;
+  font-family: poppins;
   font-style: normal;
   font-weight: 300;
-  src: url('../fonts/vazirmatn/Vazirmatn-Light.woff2') format('woff2');
+  src: url("../fonts/poppins/poppins-light-webfont.woff") format("woff");
 }
+
+
 
 :root {
   --color-fff: #fff;
@@ -742,7 +747,7 @@ main{
 }
 
 .proj_filter_btn {
-  font-family: vazirmatn;
+  font-family: poppins;
   font-size: .88rem;
   font-weight: 600;
   color: var(--color-B5C0DA);
@@ -916,7 +921,7 @@ main{
   align-items: center;
   gap: 5px;
   align-self: flex-start;
-  font-family: vazirmatn;
+  font-family: poppins;
   font-size: .85rem;
   font-weight: 700;
   color: var(--color-4F8EFF);
@@ -1112,7 +1117,7 @@ main{
   color: var(--color-text-muted);
 }
 .cer_footer button{
-  font-family: vazirmatn;
+  font-family: poppins;
   font-size: 12px;
   font-weight: 600;
   color: var(--color-4F8EFF);
@@ -1592,7 +1597,7 @@ main{
 }
 .jira_plan_card ul li::before {
   position: absolute;
-  content: '√';
+  content: '✓';
   font-size: 18px;
   font-weight: 700;
   top: 50%;
@@ -1713,17 +1718,17 @@ main{
 .services_section_body_service ul li, .course_section_body_details ul li {
   list-style: none;
   position: relative;
-  padding-right: 22px;
+  padding-left: 22px;
   font-size: .9rem;
     color: var(--color-B5C0DA);
 }
 .services_section_body_service ul li::before, .course_section_body_details ul li::before {
   position: absolute;
-  content: '√';
+  content: '✓';
   font-size: 20px;
   font-weight: 700;
   top: 50%;
-  right: 0;
+  left: 0;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
@@ -1840,9 +1845,10 @@ main{
 
 .course_grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr;
   gap: 24px;
   margin: 0 auto;
+  max-width: 480px;
 }
 
 .course_card {
@@ -1912,17 +1918,17 @@ main{
 .course_card ul li {
   list-style: none;
   position: relative;
-  padding-right: 22px;
+  padding-left: 22px;
   font-size: .86rem;
   color: var(--color-B5C0DA);
 }
 .course_card ul li::before {
   position: absolute;
-  content: '√';
+  content: '✓';
   font-size: 18px;
   font-weight: 700;
   top: 50%;
-  right: 0;
+  left: 0;
   transform: translateY(-50%);
   color: var(--color-4F8EFF);
 }
@@ -1932,7 +1938,6 @@ main{
   align-items: baseline;
   gap: 10px;
   margin-bottom: 1.4rem;
-  direction: rtl;
 }
 .course_card_price strong {
   font-size: 1.6rem;
@@ -2037,7 +2042,7 @@ main{
   border-bottom: 1px solid var(--color-fff);
 }
 
-.email_location_footer .location{
+.email_location_footer .email{
   margin-bottom: 2rem;
 }
 
@@ -2138,7 +2143,7 @@ main{
 .contact_us_form div input , .contact_us_form div textarea {
   color: var(--color-fff);
   width: 100%;
-  font-family: vazirmatn;
+  font-family: poppins;
   background: #0D1322;
   border: 1px solid var(--border-soft);
   border-radius: 12px;

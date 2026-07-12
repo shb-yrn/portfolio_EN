@@ -37,6 +37,9 @@
     width: 100%;
     justify-content: center;
   }
+  .hero_actions {
+    justify-content: center;
+  }
 
   .skills_section_row {
     grid-template-columns: 1fr;

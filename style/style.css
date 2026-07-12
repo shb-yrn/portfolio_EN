@@ -11,7 +11,7 @@ html {
 body {
   background-color: var(--color-04060C);
   line-height: 1.75;
-  font-family: poppins;
+  font-family: inter;
   overflow: hidden;
 }
 
@@ -95,44 +95,44 @@ main{
 }
 
 @font-face {
-  font-family: poppins;
+  font-family: inter;
   font-style: normal;
   font-weight: 900;
-  src: url("../fonts/poppins/poppins-bold-webfont.woff") format(woff);
+  src: url("../fonts/inter/Inter-Bold.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: poppins;
+  font-family: inter;
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/poppins/poppins-bold-webfont.woff") format("woff");
+  src: url("../fonts/inter/Inter-Bold.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: poppins;
+  font-family: inter;
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/poppins/poppins-medium-webfont.woff") format("woff");
+  src: url("../fonts/inter/Inter-Medium.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: poppins;
+  font-family: inter;
   font-style: normal;
   font-weight: 600;
-  src: url("../fonts/poppins/poppins-semibold-webfont.woff") format("woff");
+  src: url("../fonts/inter/Inter-SemiBold.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: poppins;
+  font-family: inter;
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/poppins/poppins-regular-webfont.woff") format("woff");
+  src: url("../fonts/inter/Inter-Regular.woff2") format("woff2");
 }
 @font-face {
-  font-family: poppins;
+  font-family: inter;
   font-style: normal;
   font-weight: 300;
-  src: url("../fonts/poppins/poppins-light-webfont.woff") format("woff");
+  src: url("../fonts/inter/Inter-Light.woff2") format("woff2");
 }
 
 
@@ -835,13 +835,14 @@ main{
   gap: 4px;
 }
 .proj_card_featured .proj_card_aside_stat strong {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 800;
   background: linear-gradient(90deg, #4F8EFF, #7C5CFF);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   line-height: 1;
+  height: 28px;
 }
 .proj_card_featured .proj_card_aside_stat span {
   font-size: .76rem;

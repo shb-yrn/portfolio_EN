@@ -740,6 +740,8 @@ main{
 .projects_heading p {
   color: var(--color-B5C0DA);
   font-size: var(--fs-paragraph);
+  max-width: 650px;
+  justify-self: center;
 }
 
 .projects_filter {
@@ -833,7 +835,7 @@ main{
   gap: 4px;
 }
 .proj_card_featured .proj_card_aside_stat strong {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 800;
   background: linear-gradient(90deg, #4F8EFF, #7C5CFF);
   -webkit-background-clip: text;
@@ -1236,7 +1238,7 @@ main{
 .modal_close {
   position: absolute;
   top: 16px;
-  left: 16px;
+  right: 16px;
   width: 30px;
   height: 30px;
   border-radius: 50%;

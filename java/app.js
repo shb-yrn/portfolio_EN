@@ -444,59 +444,51 @@ sections.forEach((section) => observerNav.observe(section));
 // Projects section
 const projectsData = [
   {
-    title: "پایش وضعیت توربین‌های زیمنس",
-    tag: "صنعتی",
-    challenge: "تیم بهره‌برداری ایستگاه تقویت فشار گاز برای پایش وضعیت توربین‌های زیمنس به بازدید حضوری و ثبت دستی پارامترها متکی بود؛ همین موضوع کنترل لحظه‌ای وضعیت تجهیزات را دشوار می‌کرد.",
-    solution: "یک نرم‌افزار دسکتاپ تحت ویندوز با C# و DevExpress طراحی و پیاده‌سازی شد که پارامترهای عملکردی توربین‌ها را از دیتابیس SQL Server می‌خواند و در قالب داشبوردهای گرافیکی قابل‌فهم برای اپراتور نمایش می‌دهد.",
-    result: "این نرم‌افزار در ایستگاه تقویت فشار گاز دهق اصفهان نصب و در حال استفاده است و پایش وضعیت توربین‌ها را برای اپراتورها ساده‌تر کرده است.",
+    title: "Siemens Turbine Condition Monitoring",
+    tag: "Industrial",
+    challenge: "Windows desktop software for monitoring Siemens turbine condition, developed with C# and DevExpress and a SQL Server database; installed at a gas compressor station.",
+    solution: "A Windows desktop application was designed and built with C# and DevExpress that reads the turbines' operational parameters from a SQL Server database and displays them as clear graphical dashboards for the operator.",
+    result: "This software is installed and in use at the gas compressor station, making turbine condition monitoring easier for operators.",
     tags: ["C#", "DevExpress", "SQL Server", "Windows Application"]
   },
   {
-    title: "سامانه پایش ناوگان نیروگاهی",
-    tag: "صنعتی",
-    challenge: "مدیران ارشد نیاز داشتند وضعیت چند نیروگاه را به‌طور هم‌زمان و از یک نقطه واحد رصد کنند، بدون اینکه مجبور باشند بین چند سامانه جداگانه جابه‌جا شوند.",
-    solution: "یک داشبورد تحت وب با بک‌اند .NET و SQL Server و فرانت‌اند HTML5، CSS3، JavaScript و Bootstrap ساخته شد که وضعیت هر واحد نیروگاهی را با نمودارهای Highcharts، AmCharts و Chart.js نمایش می‌دهد.",
-    result: "این سامانه در نیروگاه شهید رجایی قزوین، نیروگاه کهنوج و نیروگاه کرمان مستقر شده و مدیریت متمرکز چند نیروگاه از یک پنل واحد را ممکن کرده است.",
+    title: "Power Plant Fleet Monitoring",
+    tag: "Industrial",
+    challenge: "a single point, without having to switch between multiple separate systems.",
+    solution: "A web-based dashboard was built with a .NET and SQL Server backend and an HTML5, CSS3, JavaScript, and Bootstrap frontend, displaying each power plant unit's status with Highcharts, AmCharts, and Chart.js charts.",
+    result: "This system has been deployed at power plants and enables centralized management of multiple power plants from a single panel.",
     tags: [".NET", "SQL Server", "Bootstrap", "Highcharts"]
   },
   {
-    title: "پایش ایستگاه‌های تقویت فشار گاز",
-    tag: "صنعتی",
-    challenge: "ثبت دستی پارامترهای فشار و دما در ایستگاه‌های تقویت فشار گاز، احتمال خطای انسانی و تأخیر در گزارش‌گیری سازمانی را افزایش می‌داد.",
-    solution: "سامانه‌ای تحت وب برای ثبت خودکار و گزارش‌گیری دوره‌ای پارامترهای ایستگاه‌ها با .NET و SQL Server در بک‌اند و HTML5، CSS3، JavaScript و Bootstrap در فرانت‌اند توسعه داده شد؛ داده‌ها با نمودارهای Highcharts و AmCharts نمایش داده می‌شوند.",
-    result: "این سامانه در ایستگاه‌های تقویت فشار گاز سمنان، صفاشهر و پتاوه مستقر شده و دقت داده‌های ثبت‌شده را افزایش داده است.",
+    title: "Gas Compressor Station Monitoring",
+    tag: "Industrial",
+    challenge: "Manually logging pressure and temperature parameters at gas compressor stations increased the risk of human error and delays in organizational reporting.",
+    solution: "A web-based system for automatic logging and periodic reporting of station parameters was developed with a .NET and SQL Server backend and an HTML5, CSS3, JavaScript, and Bootstrap frontend; data is displayed with Highcharts and AmCharts charts.",
+    result: "This system has been deployed at gas compressor stations and has increased the accuracy of the logged data.",
     tags: [".NET", "SQL Server", "Bootstrap", "AmCharts"]
   },
   {
-    title: "نرم‌افزار Smart Report",
-    tag: "سازمانی",
-    challenge: "واحدهای مختلف سازمان داده‌های خود را در منابع پراکنده نگه می‌داشتند و تولید گزارش‌های مدیریتی یکپارچه زمان زیادی می‌برد.",
-    solution: "موتور گزارش‌گیری پویا با .NET و SQL Server ساخته شد که داده‌های اکتسابی نیروگاه یا ایستگاه تقویت فشار گاز را در قالب نمودار نمایش می‌دهد و امکان چاپ مستقیم گزارش‌های تولیدشده را نیز فراهم می‌کند.",
-    result: "زمان تهیه گزارش‌های مدیریتی به‌طور قابل‌توجهی کوتاه‌تر شد و دقت داده‌های ارائه‌شده به مدیران افزایش یافت.",
+    title: "Smart Report Software ",
+    tag: "Enterprise",
+    challenge: "Different departments in the organization kept their data in scattered sources, and producing unified management reports took a lot of time.",
+    solution: "A dynamic reporting engine was built with .NET and SQL Server that displays acquired data from a power plant or gas compressor station as charts and also provides the ability to directly print the generated reports.",
+    result: "The time required to prepare management reports was significantly reduced, and the accuracy of the data presented to managers improved.",
     tags: [".NET", "SQL Server", "Chart.js"]
   },
   {
-    title: "پروژه ERP",
-    tag: "سازمانی",
-    challenge: "سازمان به سامانه‌ای یکپارچه برای مدیریت منابع انسانی، انبارداری، تسهیلات و رفاهی و خدمات پرسنلی نیاز داشت که جایگزین فرآیندهای پراکنده و دستی شود.",
-    solution: "سامانه ERP با بک‌اند Django REST Framework و فرانت‌اند React.js طراحی و پیاده‌سازی شد؛ شامل ماژول‌های منابع انسانی، انبارداری، تسهیلات و رفاهی و خدمات.",
-    result: "فرآیندهای پرسنلی و انبارداری سازمان یکپارچه و ساختاریافته شد و امکان مدیریت متمرکز ماژول‌های مختلف فراهم گردید.",
+    title: "ERP Project",
+    tag: "Enterprise",
+    challenge: "The organization needed an integrated system to manage human resources, warehousing, and staff welfare/facilities services, replacing scattered and manual processes.",
+    solution: "An ERP system was designed and built with a Django REST Framework backend and a React.js frontend; including human resources, warehousing, and welfare/facilities service modules.",
+    result: "The organization's HR and warehousing processes were unified and structured, enabling centralized management of the various modules.",
     tags: ["Django REST Framework", "React.js", "JWT", "RESTful"]
   },
   {
-    title: "دوره آموزشی Jira در مکتب‌خونه",
-    tag: "آموزشی",
-    challenge: "بسیاری از تیم‌های نرم‌افزاری Jira را نصب می‌کنند اما به دلیل عدم آشنایی با تنظیمات صحیح Workflow، از ظرفیت واقعی ابزار استفاده نمی‌کنند.",
-    solution: "دوره‌ای کامل برای راه‌اندازی، پیکربندی Workflow، مدیریت پروژه و نصب پلاگین‌های کاربردی Jira طراحی و در پلتفرم مکتب‌خونه منتشر شد.",
-    result: "صدها نفر از تیم‌های نرم‌افزاری توانستند Jira را به‌درستی در فرایند کاری خود پیاده‌سازی کنند.",
-    tags: ["Jira", "آموزش", "مدیریت پروژه"]
-  },
-  {
-    title: "توسعه‌دهنده رسمی پلاگین جیرا در Atlassian",
-    tag: "بین‌المللی",
-    challenge: "تیم‌های سازمانی که از Jira استفاده می‌کنند نیاز به قابلیت‌ها و افزونه‌های اختصاصی داشتند که در نسخه پایه Jira وجود نداشت.",
-    solution: "به‌عنوان توسعه‌دهنده رسمی پلاگین Jira در شرکت Atlassian (استرالیا)، در طراحی و توسعه افزونه‌های Marketplace این پلتفرم مشارکت دارم.",
-    result: "از تیر ۱۴۰۵ در حال فعالیت در این نقش هستم.",
+    title: "Official Jira Plugin Developer at Atlassian",
+    tag: "International",
+    challenge: "Enterprise teams using Jira needed dedicated features and add-ons that weren't available in the base version of Jira.",
+    solution: "As an official Jira plugin developer at Atlassian (Australia), I contribute to the design and development of Marketplace add-ons for the platform.",
+    result: "I have been active in this role since June 2026.",
     tags: ["Jira", "Atlassian", "Plugin Development"]
   }
 ];

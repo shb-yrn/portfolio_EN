@@ -462,6 +462,10 @@ main{
   gap: 72px;
 }
 
+.hero_about_me{
+  max-width: 770px;
+}
+
 .intro_hero_about_me {
   font-size: var(--fs-display);
   /* font-weight: 800; */

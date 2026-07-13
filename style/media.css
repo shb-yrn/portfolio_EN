@@ -9,17 +9,9 @@
   .nav_action .icons {
     display: flex;
   }
-  
-  .jira_plans_body {
-    grid-template-columns: 1fr;
-  }
 
   .course_grid {
     grid-template-columns: 1fr;
-  }
-
-  .course_card_order, .jira_plan_order {
-    order: -1;
   }
 }
 
@@ -106,32 +98,9 @@
     justify-content: center;
     margin-bottom: 2rem;
   }
-  .contact_us_form {
-    padding: 30px 22px;
-  }
 }
 
 @media (max-width: 900px) {
-  .articles { 
-    grid-template-columns: 1fr; 
-  }
-  .art_card_hero  { 
-    grid-column: 1;
-    grid-row: auto; min-height: auto; 
-  }
-  .art_card_sm    { 
-    grid-column: 1; 
-  }
-  .art_card_wide  { 
-    grid-column: 1; 
-  }
-  .art_card_wide_deco { 
-    display: none; 
-  }
-  .art_card_wide_deco { 
-    display: none; 
-  }
-
   .projects_grid {
     grid-template-columns: 1fr 1fr;
   }
@@ -205,49 +174,18 @@
   .services_section_body {
     grid-template-columns: 1fr;
   }
-
-  .paper_item {
-    padding: 20px 16px;
-  }
-  .paper_item_right {
-    gap: 12px;
-  }
-  .paper_icon {
-    display: none;
-  }
-
-  .paper_item_left .paper_arrow {
-    display: none;
-  }
 }
 
 @media (max-width: 600px) {
-  .contact_us_form{
-    grid-template-columns: 1fr;
-    width: 100%;
-  }
-  .input_topic_form, .textarea_message_form, .contact_us_btn {
-    grid-column: auto;
-  }
-  .academic_papers_list li {
-    flex-direction: column;
-    gap: 6px;
-  }
-  .academic_paper_year {
-    align-self: flex-start;
-  }
 }
 
 @media (max-width: 540px) {
   
   .footer_social_mobile{
     grid-template-columns: auto;
-    justify-items: center;
-    /* width: 100%; */
   }
   .footer_social_mobile .location{
     grid-column: auto;
-    /* justify-self: auto; */
   }
 }
 
@@ -287,11 +225,7 @@
     border-radius: 18px;
   }
 
-  .art_card_hero_deco{
-    display: none;
-  }
-
-  .services_section_body_service {
+  .services_section_body_service, .course_card {
     padding: 30px 22px;
   }
 }

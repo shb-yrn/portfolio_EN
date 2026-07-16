@@ -1147,40 +1147,6 @@ main{
   fill: var(--color-4F8EFF);
 }
 
-.all_cer_link {
-  max-width: 1100px;
-  margin: 32px auto 0;
-  display: flex;
-  justify-content: center;
-  gap: 14px;
-  flex-wrap: wrap;
-}
-
-.all_cer_link a {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--color-text-muted);
-  border: 1px solid var(--border-soft);
-  border-radius: 30px;
-  padding: 10px 20px;
-  text-decoration: none;
-  transition: border-color 0.25s ease, color 0.25s ease;
-}
-@media (hover: hover) {
-  .all_cer_link a:hover{
-    border: 1px solid var(--border-glow);
-    color: var(--color-fff);
-  }
-}
-
-.all_cer_link a svg {
-  width: 14px;
-  height: 14px;
-}
-
 .modal_overlay {
   position: fixed;
   inset: 0;

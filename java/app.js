@@ -553,6 +553,12 @@ projFilterBtns.forEach((btn) => {
       const match = filter === 'all' || card.dataset.category === filter;
       card.style.display = match ? '' : 'none';
     });
+
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        ScrollTrigger.refresh();
+      });
+    });
   });
 });
 

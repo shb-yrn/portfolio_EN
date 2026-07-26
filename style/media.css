@@ -82,10 +82,6 @@
   .social_media_footer{
     display: none;
   }
-  .quick_links_footer {
-    justify-content: center;
-    margin-bottom: 2rem;
-  }
 }
 
 @media (max-width: 900px) {

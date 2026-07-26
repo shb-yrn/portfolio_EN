@@ -601,10 +601,26 @@ main{
 
 /* skills section */
 
-.skills_section_left_backend_header, .skills_section_right_backend_header {
+.skills_section_left_header {
   display: flex;
-  align-items: center;
+  align-items: end;
   gap: 10px;
+  direction: ltr;
+}
+.skills_section_left_header div {
+  display: flex;
+  flex-direction: column;
+}
+.skills_section_left_header div p {
+  font-size: 24px;
+  line-height: 1;
+}
+.skills_section_left_header div small {
+  line-height: 1;
+  color: var(--color-text-muted_2);
+}
+.skills_section_left_header * {
+  direction: ltr;
 }
 
 .skills_section_row {
@@ -617,7 +633,9 @@ main{
 .skills_section_right {
   display: flex;
   flex-direction: column;
+  justify-self: center;
   gap: 1.3rem;
+  text-align: center;
 }
 .skills_section_right h2 {
   font-size: var(--fs-h2);
@@ -636,9 +654,15 @@ main{
   row-gap: 12px;
   flex-wrap: wrap;
 }
+.skills_section_left_skills {
+  justify-content: center;
+}
 .skills_section_right_skills div, .skills_section_left_skills div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   background: var(--color-ffffff0a);
-  padding: 5px 18px;
+  padding: 6px 18px 5px 18px;
   font-size: 12px;
   font-weight: bold;
   border: 1px solid var(--border-soft);
@@ -648,7 +672,11 @@ main{
   -ms-border-radius: 9999px;
   -o-border-radius: 9999px;
 }
-.skills_section_right_skills div p, .skills_section_left_skills div p {
+.skills_section_left_skills div svg {
+  width: 20px;
+  padding-bottom: 3px;
+}
+.skills_section_right_skills div p, .skills_section_left_skills div p, .skills_section_left_skills div {
   direction: ltr;
 }
 
@@ -662,21 +690,40 @@ main{
   flex-direction: column;
   gap: 20px;
   background: var(--color-0F1729);
-  padding: 16px;
+  padding: 18px;
   border: 1px solid var(--border-soft);
   transition: filter .2s ease, background .2s ease, border-color .2s ease;
   -webkit-transition: filter .2s ease, background .2s ease, border-color .2s ease;
   -moz-transition: filter .2s ease, background .2s ease, border-color .2s ease;
   -ms-transition: filter .2s ease, background .2s ease, border-color .2s ease;
   -o-transition: filter .2s ease, background .2s ease, border-color .2s ease;
-  border-radius: 26px;
-  -webkit-border-radius: 26px;
-  -moz-border-radius: 26px;
-  -ms-border-radius: 26px;
-  -o-border-radius: 26px;
-  &:hover {
-    border-color: var(--border-glow);
-  }
+  border-radius: 22px;
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  -ms-border-radius: 22px;
+  -o-border-radius: 22px;
+}
+.glow_skills_section_left_backend, .glow_skills_section_left_frontend {
+  padding: 1.5px;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+}
+.glow_skills_section_left_backend {
+  background: linear-gradient(135deg, #b25cff 0%, #8a5cff 50%, #4bd8ff 100%);
+  box-shadow:
+    0 0 12px 0 rgba(180, 100, 255, 0.35),
+    0 0 40px 4px rgba(150, 90, 255, 0.2),
+    0 0 90px 15px rgba(120, 80, 255, 0.1);
+}
+.glow_skills_section_left_frontend {
+  background: linear-gradient(135deg, #3ea6ff 0%, #26e0ff 50%, #4bd8ff 100%);
+  box-shadow:
+    0 0 12px 0 rgba(60, 200, 255, 0.35),
+    0 0 40px 4px rgba(50, 180, 255, 0.2),
+    0 0 90px 15px rgba(40, 150, 255, 0.1);
 }
 
 /* skills section */
@@ -1754,12 +1801,6 @@ main{
   display: block;
 }
 
-.quick_links_footer {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-bottom: 1.6rem;
-}
 .quick_links_footer a {
   font-size: .82rem;
   font-weight: 600;

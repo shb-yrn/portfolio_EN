@@ -482,14 +482,6 @@ const projectsData = [
     solution: "An ERP system was designed and built with a Django REST Framework backend and a React.js frontend; including human resources, warehousing, and welfare/facilities service modules.",
     result: "The organization's HR and warehousing processes were unified and structured, enabling centralized management of the various modules.",
     tags: ["Django REST Framework", "React.js", "JWT", "RESTful"]
-  },
-  {
-    title: "Official Jira Plugin Developer at Atlassian",
-    tag: "International",
-    challenge: "Enterprise teams using Jira needed dedicated features and add-ons that weren't available in the base version of Jira.",
-    solution: "As an official Jira plugin developer at Atlassian (Australia), I contribute to the design and development of Marketplace add-ons for the platform.",
-    result: "I have been active in this role since June 2026.",
-    tags: ["Jira", "Atlassian", "Plugin Development"]
   }
 ];
 

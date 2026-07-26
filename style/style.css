@@ -439,31 +439,18 @@ main{
   padding: calc(var(--nav-height) + 48px) 0 64px;
 }
 
-.hero_picture{
-  align-self: flex-start;
-  margin-top: 3rem;
-}
-
-.img_hero_picture {
-  width: 300px;
-  height: 300px;
-  overflow: hidden;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-}
-
 .row_hero_section {
-  display: grid;
-  grid-template-columns: auto auto;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 72px;
+  text-align: center;
 }
 
 .hero_about_me{
   max-width: 770px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .intro_hero_about_me {
@@ -486,11 +473,11 @@ main{
 }
 
 .bio_hero_about_me {
-  max-width: 56ch;
+  max-width: 62ch;
   color: var(--color-B5C0DA);
   /* font-size: 1.02rem; */
   font-size: var(--fs-paragraph);
-  margin: 0 0 2rem;
+  margin: 0 0 2.5rem;
 }
 
 .btn {
@@ -509,32 +496,6 @@ main{
   -moz-transition: filter .2s ease, background .2s ease, border-color .2s ease;
   -ms-transition: filter .2s ease, background .2s ease, border-color .2s ease;
   -o-transition: filter .2s ease, background .2s ease, border-color .2s ease;
-}
-
-.hero_actions {
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-  margin-bottom: 2.5rem;
-}
-
-.hero_action_certificate {
-  color: var(--color-2b1200);
-  background: var(--color-gradient-cta);
-  text-decoration: none;
-}
-
-.hero_action_certificate_download {
-  color: var(--color-F8FAFF);
-  background: var(--color-ffffff0a);
-  border-color: var(--border-soft);
-  text-decoration: none;
-}
-@media (hover: hover) {
-  .hero_action_certificate_download:hover {
-    background: var(--color-ffffff14);
-    border-color: var(--border-glow);
-  }
 }
 
 .hero_quickfacts {

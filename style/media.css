@@ -16,20 +16,8 @@
 }
 
 @media (max-width: 980px) {
-  .row_hero_section{
-    grid-template-columns: 1fr;
-    justify-items: center;
-  }
-  .hero_about_me{
-    text-align: center;
-    justify-items: center;
-    width: 100%;
-  }
   .hero_quickfacts{
     width: 100%;
-    justify-content: center;
-  }
-  .hero_actions {
     justify-content: center;
   }
 
@@ -144,10 +132,6 @@
     left: -260px;
   }
 
-  .hero_picture{
-    margin: 0;
-  }
-
   .hero_quickfacts{
     background-color: #13142299;
     border: 1px solid #1f293780;
@@ -193,11 +177,6 @@
   .skills_section_right_skills {
     display: none;
   }
-  .img_hero_picture{
-    width: 220px;
-    height: 220px;
-  }
-
   .hero_quickfacts div:first-child {
     padding: 0px 5.3vw;
   }
@@ -238,7 +217,4 @@
     gap: 10px;
   }
 
-  .hero_actions a {
-    font-size: 0.8rem;
-  }
 }
